@@ -11,5 +11,4 @@ that uses Chat GPT to generate AWS CLI commands from your prompts.
 ```shell
 aiws list ec2 in us-west-2
 ```
-[![asciicast](https://asciinema.org/a/9Ztnv5rdRUpcGG1Wr7Tt74hSJ.svg)](https://asciinema.org/a/9Ztnv5rdRUpcGG1Wr7Tt74hSJ)
-
+![aiws-list-ec2](https://user-images.githubusercontent.com/1237982/228968604-953dd131-ba9d-47dd-a8d0-19bf59e37664.gif)
