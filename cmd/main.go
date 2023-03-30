@@ -26,7 +26,7 @@ func main() {
 	}
 
 	quick.Highlight(os.Stdout, command, "json", "terminal256", "monokai")
-	fmt.Print("\nProceed? (Y/n)")
+	fmt.Print("\nProceed? (y/N)")
 	input := bufio.NewScanner(os.Stdin)
 	input.Scan()
 
