@@ -13,6 +13,8 @@ builds:
 #      - linux
 #      - windows
       - darwin
+    main: cmd/main.go
+    binary: aiws
 archives:
   - replacements:
       darwin: Darwin
