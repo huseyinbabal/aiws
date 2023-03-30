@@ -1,4 +1,4 @@
-# You don't need to memorize AWS CLI commands anymore. Use aiws, AI-driven AWS CLI
+You don't need to memorize AWS CLI commands anymore. Use aiws, AI-driven AWS CLI
 that uses Chat GPT to generate AWS CLI commands from your prompts.
 
 ## Prerequisites
@@ -11,4 +11,5 @@ that uses Chat GPT to generate AWS CLI commands from your prompts.
 ```shell
 aiws list ec2 in us-west-2
 ```
+[![asciicast](https://asciinema.org/a/9Ztnv5rdRUpcGG1Wr7Tt74hSJ.svg)](https://asciinema.org/a/9Ztnv5rdRUpcGG1Wr7Tt74hSJ)
 
