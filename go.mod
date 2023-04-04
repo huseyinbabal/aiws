@@ -8,6 +8,7 @@ require (
 	github.com/c-bata/go-prompt v0.2.6 // indirect
 	github.com/dlclark/regexp2 v1.8.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
+	github.com/maja42/goval v1.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.18 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect

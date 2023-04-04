@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/huseyinbabal/aiws/internal/chatgpt"
+	"strings"
 )
 
 type Client struct {
@@ -20,5 +21,10 @@ func (c *Client) GenerateCommand(ctx context.Context, statement string) (string,
 	if err != nil {
 		return "", err
 	}
-	return res, nil
+	return trimUnwantedChars(res), nil
+}
+
+func trimUnwantedChars(command string) string {
+	command = strings.ReplaceAll(command, "`", "")
+	return command
 }
