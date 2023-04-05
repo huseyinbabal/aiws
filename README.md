@@ -9,6 +9,7 @@ that uses Chat GPT to generate AWS CLI commands from your prompts.
 ### MacOS
 ```bash
 brew tap huseyinbabal/tap
+brew install aiws
 ```
 ### Linux & Windows
 Please check [release pages](https://github.com/huseyinbabal/aiws/releases) to see linux and windows packages.
